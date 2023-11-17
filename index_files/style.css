@@ -1,0 +1,327 @@
+body{
+	font-size:14px;
+}
+header #logo-area{
+	/*min-height:50px;*/
+	background-color: #333333;
+	font-style: italic;
+	padding: 15px 15px 0px 15px;
+
+}
+
+header #logo-area a{
+	color: white;
+	font-weight: bold;
+}
+
+header #logo-area button{
+	color: white;
+	font-weight: bold;
+	float:right;
+}
+
+h2, h3, h4{
+	padding-left: 15px;
+}
+
+h3 .workshop{
+	padding-left: 0px;
+}
+
+#new-method-button,#github-issues{
+ font-size: 10px;
+}
+
+div #gallery-vis,div #similarity-vis{
+/*	border-style: solid;
+	border-color:lightgrey;*/
+	height: 500px;
+    overflow-x: hidden; 
+	overflow-y: scroll;
+	padding: 5px 5px 5px 20px; 
+}
+
+/*div #myvis{
+	height: 1000px;
+}*/
+
+div #sidebar{
+	/*height:1000px;*/
+	border-style: solid;
+	border-width: thin;
+	border-color:lightgrey;
+	padding: 15px;
+    background: #f7f7f7;
+    overflow-y: scroll;
+	/*background-color: lightgrey;*/
+}
+
+div .gallery-item-block{
+	padding-left:0px;
+
+}
+
+div #method-tooltip{
+	height:150px;
+/*	border-style: solid;
+	border-width: thin;
+	border-color: black;*/
+}
+div .tooltip__card{
+	height:150px;
+	/*border-style: solid;*/
+	border-width: thin;
+	/*border-color: black;*/
+	overflow-y: hidden;
+}
+
+div .tooltip__thumbnail{
+	height:130px;
+}
+
+div #citation{
+	color: white;
+	font-size: 13px;
+}
+
+div #myleftmenu{
+	background-color: #543984;
+
+}
+
+/*div #aboutcontent{
+  padding: 10px 20px 10px 20px;
+}*/
+
+.filter-checkbox-label{
+	font-size: 12px;
+	text-transform:uppercase;
+}
+
+.filter-button-group button{
+	font-size: 12px;
+	border-style:dashed;
+	border-width: thin;
+	border-color:grey;
+	text-align:center;
+	padding:0px;
+}
+
+.filter-button-group button.active,#similarity-radio-group .uk-button.active{
+	background: grey;
+	color: white;
+	border-style: solid;
+
+}
+
+#similarity-radio-group{
+	margin:5px;
+	/*font-size: 10px;*/
+	border-width: thin;
+	border-color:grey;
+	padding:0px;
+}
+
+.similarity-criteria .uk-button{
+	font-size:12px;
+}
+
+.uk-grid+.uk-grid{
+	margin-top: 10px;
+}
+
+/*div .tooltip__thumbnail{
+  overflow-x: auto;
+  overflow-y: hidden;
+}*/
+
+img{
+  overflow-y: hidden;
+  display: block;
+ } /* remove extra space below image */
+
+
+img .event{
+  width: 180px;
+  overflow-y: hidden;
+  display: block;
+ } /* remove extra space below image */
+
+
+div .gallery-item{
+	height:150px;
+	/*border-style: solid;*/
+	border-width: thin;
+	/*border-color: black;*/
+	overflow-y: hidden;
+}
+
+.gallery-item__header{
+	font-weight: bold;
+	font-size: 12px;
+	height:25px;
+}
+
+.gallery-item__thumbnail{
+	height:125px;
+}
+
+div .filter-title{
+	font-size: 14px;
+	margin-top:auto;
+	margin-bottom:auto;
+	font-weight: bold;
+	/*display: table-cell;    
+    vertical-align: middle;*/
+}
+
+div .filter .filter-multi-select{
+	display: table-cell;     
+    vertical-align: middle;
+}
+
+div .filter-checkboxes{
+	margin-top:10px;
+	margin-bottom:15px;
+}
+
+line .v-divider .v-divider-dark{
+	stroke:blue;
+	stroke-width:2;
+}
+
+#locomotion-media{
+	margin-bottom: 5px;
+}
+.table-attr{
+	text-transform: capitalize;
+}
+
+.table-title{
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+div .input-title{
+	font-size: 14px;
+	margin-top:auto;
+	margin-bottom:auto;
+	font-weight: bold;
+	text-transform:uppercase;
+}
+
+.attr-radiobox-label{
+	font-size: 14px;
+	text-transform:capitalize;
+}
+
+#form-submit-footer{
+	display:flex;
+	/*justify-content:center;*/
+	float:right;
+}
+
+#form-modal-title, #locomotion-modal-title{
+	font-size: 20px;
+}
+
+#filter-grid-year{
+	margin-top: 0px;
+}
+
+.filter-range-input{
+	border-style: none;
+	background-color: #f7f7f7;
+
+}
+
+.noUi-connect, .noUi-target{
+	height:10px;
+}
+.noUi-connect{
+	background:grey;
+}
+
+.noUi-tooltip{
+	font-size: 10px;
+	display: none;
+}
+
+.noUi-active .noUi-tooltip {
+    display: block;
+}
+
+.noUi-horizontal .noUi-handle {
+	width:8px;
+	height:12px;
+	right:-4px;
+	top:-2px;
+}
+
+
+/*.noUi-handle-lower{
+	right:-8px;
+}*/
+
+.noUi-handle:before, .noUi-handle:after {
+    content: "";
+    display: none;
+}
+
+
+/*** workshop pages styles***/
+div #workshop-title-div{
+	margin-top:15px;
+	margin-left:50%;
+	/*align-content: center;*/
+}
+
+div .workshop-title{
+	font-size: 2.2rem;
+	color:black;
+}
+
+div .workshop-subtitle{
+	font-size: 1.4rem;
+	color:grey;
+	margin-bottom: 30px
+}
+
+div .workshop-subsection{
+	font-size: 1.3rem;
+    line-height: 1.4;
+    color:black;
+    margin-bottom: 0px;
+}
+
+/*h1 .workshop-title{
+	margin-top:15px;
+	margin-bottom: -10px;
+}*/
+
+div .teaser{
+	margin-bottom: 15px;
+}
+div .organizers{
+	margin-top: 20px;
+}
+
+div .footer-area{
+	margin-top: 30px;
+}
+/**+h4{
+    margin-top: 5px;
+    color:grey;
+    margin-left:0px;
+}*/
+/*.uk-grid .organizer{
+	margin-bottom:50px;
+}*/
+/******/
+/*
+.noUi-horizontal .noUi-origin{
+	transform: translate(-960%, 0px);!imporant
+}*/
+
+
+
